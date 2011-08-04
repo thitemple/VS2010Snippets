@@ -37,7 +37,9 @@
     <None Include="NUnitAssertAreEqual.snippet">
       <SubType>Designer</SubType>
     </None>
-    <None Include="NUnitTest.snippet" />
+    <None Include="NUnitTest.snippet">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="README" />
   </ItemGroup>
   <ItemGroup>
