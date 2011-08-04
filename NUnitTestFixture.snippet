@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>NUnit Test Fixture</Title>
+    <Author>Thiago Temple</Author>
+    <Description>Creates a NUnit Class Fixture</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>nfixture</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>className</ID>
+        <ToolTip>The name for the Test Class</ToolTip>
+        <Default>className</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Kind="type decl"><![CDATA[
+            [TestFixture]
+            public class $className$
+            {
+                
+            }]]></Code>
+  </Snippet>
+</CodeSnippet>
