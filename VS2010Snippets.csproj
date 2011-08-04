@@ -34,8 +34,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="NUnitAssertAreEqual.snippet" />
+    <None Include="NUnitAssertAreEqual.snippet">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="NUnitTest.snippet" />
+    <None Include="README" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NUnitTestFixture.snippet" />
